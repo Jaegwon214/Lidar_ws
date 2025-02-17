@@ -1,0 +1,237 @@
+[0.016s] Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake /home/jae/Lidar_ws/src/velodyne/velodyne_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jae/Lidar_ws/src/install/velodyne_msgs
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.352s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.362s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.702s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.763s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.793s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.824s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.830s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.837s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.878s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.887s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.143s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.146s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.148s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.150s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.645s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.669s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.669s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.669s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.688s] -- Found PythonExtra: .so  
+[1.732s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.734s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.736s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.751s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.751s] -- Added test 'lint_cmake' to check CMake code style
+[1.752s] -- Added test 'xmllint' to check XML markup files
+[1.755s] -- Configuring done
+[1.783s] -- Generating done
+[1.791s] -- Build files have been written to: /home/jae/Lidar_ws/src/build/velodyne_msgs
+[1.801s] Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake /home/jae/Lidar_ws/src/velodyne/velodyne_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jae/Lidar_ws/src/install/velodyne_msgs
+[1.802s] Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_msgs -- -j12 -l12
+[1.842s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.852s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.861s] [  5%] Built target ament_cmake_python_symlink_velodyne_msgs
+[2.085s] running egg_info
+[2.104s] creating velodyne_msgs.egg-info
+[2.104s] writing velodyne_msgs.egg-info/PKG-INFO
+[2.105s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[2.105s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[2.105s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.162s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.164s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.192s] [  5%] Built target velodyne_msgs__cpp
+[2.205s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.205s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.206s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.207s] [ 15%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__functions.c.o[0m
+[2.208s] [ 17%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_scan__functions.c.o[0m
+[2.212s] [ 17%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[2.268s] [ 20%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[2.313s] [ 20%] Built target velodyne_msgs__rosidl_generator_c
+[2.327s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.327s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.330s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.551s] [ 30%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[2.551s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[2.576s] [ 35%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp.o[0m
+[2.576s] [ 38%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp.o[0m
+[2.594s] [ 43%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[2.594s] [ 43%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[2.718s] [ 46%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[2.718s] [ 48%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[2.770s] [ 51%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__type_support_c.cpp.o[0m
+[2.772s] [ 53%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_scan__type_support_c.cpp.o[0m
+[2.783s] [ 56%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[2.869s] [ 56%] Built target velodyne_msgs__rosidl_typesupport_c
+[2.886s] [ 61%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_scan__type_support.c.o[0m
+[2.886s] [ 61%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.c.o[0m
+[2.965s] [ 64%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.003s] [ 66%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[3.031s] [ 66%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[3.082s] [ 66%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[3.211s] [ 69%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.223s] [ 71%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.271s] [ 74%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.306s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[3.314s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[3.350s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[3.370s] [ 74%] Built target velodyne_msgs
+[3.391s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.790s] [ 76%] Built target velodyne_msgs__py
+[3.810s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[3.810s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[3.918s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so[0m
+[3.958s] [ 84%] Built target velodyne_msgs__rosidl_generator_py
+[3.979s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.979s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.979s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.077s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.078s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.078s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.119s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.119s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[4.119s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[4.132s] Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_msgs -- -j12 -l12
+[4.144s] Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_msgs
+[4.151s] -- Install configuration: ""
+[4.152s] -- Execute custom install script
+[4.152s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[4.163s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[4.172s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[4.182s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[4.191s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[4.200s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[4.210s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[4.220s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.228s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[4.238s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[4.248s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[4.257s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[4.266s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[4.275s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[4.284s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.293s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[4.302s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[4.310s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[4.320s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.hpp
+[4.329s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[4.339s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[4.348s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[4.357s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.hpp
+[4.367s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.375s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[4.384s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[4.393s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[4.402s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[4.410s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.419s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[4.429s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[4.437s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.447s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[4.456s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[4.466s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[4.476s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[4.485s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/PKG-INFO
+[4.494s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/SOURCES.txt
+[4.502s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/dependency_links.txt
+[4.512s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/top_level.txt
+[4.521s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py
+[4.531s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[4.539s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.549s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.558s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so
+[4.567s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py
+[4.576s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py
+[4.585s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[4.594s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py
+[4.603s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[4.612s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.621s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.630s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.639s] -- Up-to-date symlink: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.639s] -- Up-to-date symlink: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.640s] -- Up-to-date symlink: /home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.640s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[4.649s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[4.659s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[4.668s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[4.677s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[4.687s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[4.697s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[4.705s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[4.714s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[4.724s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[4.732s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[4.741s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[4.751s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[4.760s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[4.769s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[4.778s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[4.787s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[4.796s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.804s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.814s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.823s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.832s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.841s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.850s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[4.860s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[4.868s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[4.878s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[4.878s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[4.878s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[4.879s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.879s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.879s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.879s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[4.879s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.879s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[4.880s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[4.880s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[4.880s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.880s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[4.881s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[4.921s] Listing '/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs'...
+[4.921s] Compiling '/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py'...
+[4.921s] Listing '/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg'...
+[4.921s] Compiling '/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py'...
+[4.921s] Compiling '/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py'...
+[4.921s] Compiling '/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py'...
+[4.926s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[4.926s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so" to ""
+[4.926s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[4.926s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.927s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.927s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.927s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[4.927s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.927s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.927s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.928s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.928s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[4.928s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.928s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.928s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.929s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[4.929s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.929s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[4.929s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.932s] Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_msgs

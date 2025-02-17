@@ -1,0 +1,482 @@
+[0.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x723e0a4cb400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x723e0a4888e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x723e0a4888e0>>, mixin_verb=('build',))
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.119s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jae/Lidar_ws/src'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_processing) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_processing' with type 'ros.ament_python' and name 'lidar_processing'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_driver) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_laserscan) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_msgs) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(velodyne/velodyne_pointcloud) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.155s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/jae/Lidar_ws/install
+[0.156s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jae/ros2_ws/install
+[0.156s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 219 installed packages in /opt/ros/humble
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jae/Lidar_ws/src/build/lidar_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jae/Lidar_ws/src/install/lidar_processing', 'merge_install': False, 'path': '/home/jae/Lidar_ws/src/lidar_processing', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jae/Lidar_ws/src/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jae/Lidar_ws/src/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/jae/Lidar_ws/src/velodyne/velodyne_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jae/Lidar_ws/src/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jae/Lidar_ws/src/install/velodyne_msgs', 'merge_install': False, 'path': '/home/jae/Lidar_ws/src/velodyne/velodyne_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jae/Lidar_ws/src/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jae/Lidar_ws/src/install/velodyne_driver', 'merge_install': False, 'path': '/home/jae/Lidar_ws/src/velodyne/velodyne_driver', 'symlink_install': True, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jae/Lidar_ws/src/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jae/Lidar_ws/src/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/jae/Lidar_ws/src/velodyne/velodyne_pointcloud', 'symlink_install': True, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jae/Lidar_ws/src/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jae/Lidar_ws/src/install/velodyne', 'merge_install': False, 'path': '/home/jae/Lidar_ws/src/velodyne/velodyne', 'symlink_install': True, 'test_result_base': None}
+[0.181s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jae/Lidar_ws/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[0.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jae/Lidar_ws/src/velodyne/velodyne_msgs'
+[0.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jae/Lidar_ws/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jae/Lidar_ws/src/velodyne/velodyne_laserscan'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jae/Lidar_ws/src/lidar_processing' with build type 'ament_python'
+[0.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_processing', 'ament_prefix_path')
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/hook/ament_prefix_path.ps1'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/hook/ament_prefix_path.dsv'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/hook/ament_prefix_path.sh'
+[0.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_msgs -- -j12 -l12
+[0.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_laserscan -- -j12 -l12
+[0.412s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jae/Lidar_ws/src/lidar_processing'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_laserscan -- -j12 -l12
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_laserscan
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_laserscan
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan' for CMake module files
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan' for CMake config files
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib'
+[0.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[0.459s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/bin'
+[0.459s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[0.459s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib/python3.10/site-packages'
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/bin'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[0.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[0.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan' for CMake module files
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan' for CMake config files
+[0.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/bin'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib/python3.10/site-packages'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_laserscan/bin'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[0.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_msgs -- -j12 -l12
+[0.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_msgs
+[0.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_msgs
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs' for CMake module files
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs' for CMake config files
+[0.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/lib'
+[0.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/python3.10/site-packages'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/bin'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[0.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[0.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs' for CMake module files
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs' for CMake config files
+[0.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/lib'
+[0.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/bin'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/lib/python3.10/site-packages'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_msgs/bin'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[0.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[0.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jae/Lidar_ws/src/velodyne/velodyne_driver' with build type 'ament_cmake'
+[0.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jae/Lidar_ws/src/velodyne/velodyne_driver'
+[0.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jae/Lidar_ws/src/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[0.682s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jae/Lidar_ws/src/velodyne/velodyne_pointcloud'
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_driver': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_driver -- -j12 -l12
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_pointcloud -- -j12 -l12
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_driver -- -j12 -l12
+[0.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_driver': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_driver
+[0.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver' for CMake module files
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_driver
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/lib'
+[0.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/bin'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/lib/python3.10/site-packages'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/bin'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[0.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[0.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver' for CMake module files
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver' for CMake config files
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/lib'
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/lib/python3.10/site-packages'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_driver/bin'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.bash'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[0.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[0.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_pointcloud -- -j12 -l12
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_pointcloud
+[0.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud' for CMake module files
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_pointcloud
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud' for CMake config files
+[0.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib'
+[0.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/bin'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[0.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[0.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud' for CMake module files
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud' for CMake config files
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib'
+[0.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/bin'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/python3.10/site-packages'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/bin'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[0.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[0.943s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jae/Lidar_ws/src/velodyne/velodyne' with build type 'ament_cmake'
+[0.944s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jae/Lidar_ws/src/velodyne/velodyne'
+[0.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/src/install/velodyne_driver/lib:/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne -- -j12 -l12
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/src/install/velodyne_driver/lib:/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne -- -j12 -l12
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/velodyne': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/src/install/velodyne_driver/lib:/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne
+[1.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne' for CMake module files
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/velodyne' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud:/home/jae/Lidar_ws/src/install/velodyne_driver:/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/src/install/velodyne_laserscan:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/src/install/velodyne_driver/lib:/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:/home/jae/Lidar_ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne' for CMake config files
+[1.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/bin'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/lib/pkgconfig/velodyne.pc'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/lib/python3.10/site-packages'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/bin'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.ps1'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.dsv'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.sh'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.bash'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.zsh'
+[1.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne/share/colcon-core/packages/velodyne)
+[1.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne' for CMake module files
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne' for CMake config files
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/bin'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/lib/pkgconfig/velodyne.pc'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/lib/python3.10/site-packages'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/velodyne/bin'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.sh'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.bash'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/velodyne/share/velodyne/package.zsh'
+[1.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/velodyne/share/colcon-core/packages/velodyne)
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jae/Lidar_ws/src/build/lidar_processing': PYTHONPATH=/home/jae/Lidar_ws/src/build/lidar_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jae/Lidar_ws/src/install/lidar_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jae/Lidar_ws/src/build/lidar_processing/build --no-deps symlink_data
+[1.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_processing', 'pythonpath_develop')
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/build/lidar_processing/share/lidar_processing/hook/pythonpath_develop.ps1'
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jae/Lidar_ws/src/build/lidar_processing' returned '0': PYTHONPATH=/home/jae/Lidar_ws/src/build/lidar_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jae/Lidar_ws/src/install/lidar_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jae/Lidar_ws/src/build/lidar_processing/build --no-deps symlink_data
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/build/lidar_processing/share/lidar_processing/hook/pythonpath_develop.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/build/lidar_processing/share/lidar_processing/hook/pythonpath_develop.sh'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing' for CMake module files
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing' for CMake config files
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing/lib'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing/bin'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing/lib/pkgconfig/lidar_processing.pc'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing/lib/python3.10/site-packages'
+[1.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_processing', 'pythonpath')
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/hook/pythonpath.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/hook/pythonpath.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/hook/pythonpath.sh'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/jae/Lidar_ws/src/install/lidar_processing/bin'
+[1.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_processing)
+[1.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/package.ps1'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/package.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/package.sh'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/package.bash'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/jae/Lidar_ws/src/install/lidar_processing/share/lidar_processing/package.zsh'
+[1.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jae/Lidar_ws/src/install/lidar_processing/share/colcon-core/packages/lidar_processing)
+[1.680s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.680s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.680s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.680s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.685s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.696s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jae/Lidar_ws/src/install/local_setup.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jae/Lidar_ws/src/install/_local_setup_util_ps1.py'
+[1.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jae/Lidar_ws/src/install/setup.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jae/Lidar_ws/src/install/local_setup.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jae/Lidar_ws/src/install/_local_setup_util_sh.py'
+[1.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jae/Lidar_ws/src/install/setup.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jae/Lidar_ws/src/install/local_setup.bash'
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jae/Lidar_ws/src/install/setup.bash'
+[1.703s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jae/Lidar_ws/src/install/local_setup.zsh'
+[1.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jae/Lidar_ws/src/install/setup.zsh'

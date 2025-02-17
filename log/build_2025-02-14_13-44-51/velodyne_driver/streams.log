@@ -1,0 +1,116 @@
+[0.008s] Invoking command in '/home/jae/Lidar_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/install/velodyne_msgs/lib:/home/jae/Lidar_ws/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/install/velodyne_driver/lib:/home/jae/Lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jae/Lidar_ws/src/velodyne/velodyne_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jae/Lidar_ws/install/velodyne_driver
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.592s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.667s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.698s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.709s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.791s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.793s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.877s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.902s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.947s] -- Looking for pthread.h
+[1.011s] -- Looking for pthread.h - found
+[1.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.077s] -- Found Threads: TRUE  
+[1.112s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.134s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.200s] -- Found velodyne_msgs: 2.5.1 (/home/jae/Lidar_ws/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[1.214s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.281s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.289s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.291s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jae/Lidar_ws/src/velodyne/velodyne_driver/include>
+[1.291s] -- Configured cppcheck exclude dirs and/or files: 
+[1.294s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.294s] -- Configured cpplint exclude dirs and/or files: 
+[1.294s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.295s] -- Added test 'lint_cmake' to check CMake code style
+[1.296s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.298s] -- Added test 'uncrustify' to check C / C++ code style
+[1.298s] -- Configured uncrustify additional arguments: 
+[1.298s] -- Added test 'xmllint' to check XML markup files
+[1.301s] -- Configuring done
+[1.328s] -- Generating done
+[1.336s] -- Build files have been written to: /home/jae/Lidar_ws/build/velodyne_driver
+[1.347s] Invoked command in '/home/jae/Lidar_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/install/velodyne_msgs/lib:/home/jae/Lidar_ws/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/install/velodyne_driver/lib:/home/jae/Lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jae/Lidar_ws/src/velodyne/velodyne_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jae/Lidar_ws/install/velodyne_driver
+[1.349s] Invoking command in '/home/jae/Lidar_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/install/velodyne_msgs/lib:/home/jae/Lidar_ws/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/install/velodyne_driver/lib:/home/jae/Lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jae/Lidar_ws/build/velodyne_driver -- -j12 -l12
+[1.400s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.401s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_input.dir/src/lib/input.cpp.o[0m
+[1.401s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.234s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.299s] [ 33%] Built target gtest_main
+[4.766s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.878s] [ 41%] Built target gtest
+[5.857s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[5.991s] [ 50%] Built target velodyne_input
+[6.017s] [ 58%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[6.025s] [ 66%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[10.029s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[10.210s] [ 75%] Built target time_test
+[15.021s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[15.434s] [ 83%] Built target velodyne_driver
+[15.453s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[18.103s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[18.290s] [100%] Built target velodyne_driver_node
+[18.302s] Invoked command in '/home/jae/Lidar_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/install/velodyne_msgs/lib:/home/jae/Lidar_ws/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/install/velodyne_driver/lib:/home/jae/Lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jae/Lidar_ws/build/velodyne_driver -- -j12 -l12
+[18.304s] Invoking command in '/home/jae/Lidar_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/install/velodyne_msgs/lib:/home/jae/Lidar_ws/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/install/velodyne_driver/lib:/home/jae/Lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jae/Lidar_ws/build/velodyne_driver
+[18.311s] -- Install configuration: ""
+[18.311s] -- Execute custom install script
+[18.312s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[18.321s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[18.330s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/include/velodyne_driver/input.hpp
+[18.338s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[18.347s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[18.357s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[18.366s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[18.376s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[18.385s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[18.393s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[18.402s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[18.409s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[18.417s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[18.426s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/lib/velodyne_driver/vdump
+[18.434s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[18.442s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[18.450s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[18.458s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[18.467s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[18.475s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[18.484s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[18.493s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[18.501s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[18.511s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[18.520s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/package.dsv
+[18.528s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[18.536s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[18.545s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.553s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_targets-extras.cmake
+[18.561s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.570s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[18.578s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[18.586s] -- Symlinking: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/package.xml
+[18.593s] -- Installing: /home/jae/Lidar_ws/install/velodyne_driver/lib/libvelodyne_input.so
+[18.593s] -- Set runtime path of "/home/jae/Lidar_ws/install/velodyne_driver/lib/libvelodyne_input.so" to ""
+[18.593s] -- Installing: /home/jae/Lidar_ws/install/velodyne_driver/lib/libvelodyne_driver.so
+[18.601s] -- Set runtime path of "/home/jae/Lidar_ws/install/velodyne_driver/lib/libvelodyne_driver.so" to ""
+[18.601s] -- Installing: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport.cmake
+[18.601s] -- Installing: /home/jae/Lidar_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport-noconfig.cmake
+[18.604s] Invoked command in '/home/jae/Lidar_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/install/velodyne_msgs/lib:/home/jae/Lidar_ws/install/velodyne_pointcloud/lib:/home/jae/Lidar_ws/install/velodyne_driver/lib:/home/jae/Lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jae/Lidar_ws/build/velodyne_driver

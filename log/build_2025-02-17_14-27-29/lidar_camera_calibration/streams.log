@@ -1,0 +1,17 @@
+[1.087s] Invoking command in '/home/jae/Lidar_ws/build/lidar_camera_calibration': PYTHONPATH=/home/jae/Lidar_ws/build/lidar_camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jae/Lidar_ws/build/lidar_camera_calibration/build --no-deps symlink_data
+[1.518s] running develop
+[1.838s] running egg_info
+[1.861s] writing lidar_camera_calibration.egg-info/PKG-INFO
+[1.862s] writing dependency_links to lidar_camera_calibration.egg-info/dependency_links.txt
+[1.862s] writing entry points to lidar_camera_calibration.egg-info/entry_points.txt
+[1.863s] writing requirements to lidar_camera_calibration.egg-info/requires.txt
+[1.863s] writing top-level names to lidar_camera_calibration.egg-info/top_level.txt
+[1.911s] reading manifest file 'lidar_camera_calibration.egg-info/SOURCES.txt'
+[1.912s] writing manifest file 'lidar_camera_calibration.egg-info/SOURCES.txt'
+[1.993s] running build_ext
+[1.993s] Creating /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar-camera-calibration.egg-link (link to .)
+[1.994s] Installing calibration_node script to /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/lidar_camera_calibration
+[1.994s] 
+[1.995s] Installed /home/jae/Lidar_ws/build/lidar_camera_calibration
+[1.995s] running symlink_data
+[2.043s] Invoked command in '/home/jae/Lidar_ws/build/lidar_camera_calibration' returned '0': PYTHONPATH=/home/jae/Lidar_ws/build/lidar_camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jae/Lidar_ws/build/lidar_camera_calibration/build --no-deps symlink_data

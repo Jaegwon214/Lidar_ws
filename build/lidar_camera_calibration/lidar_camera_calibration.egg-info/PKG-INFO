@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: lidar_camera_calibration
+Version: 0.0.0
+Summary: LiDAR와 카메라 캘리브레이션을 위한 ROS2 패키지
+Maintainer: jae
+Maintainer-email: jae@todo.todo
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

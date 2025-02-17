@@ -1,0 +1,2 @@
+[console_scripts]
+calibration_node = lidar_camera_calibration.calibration_node:main

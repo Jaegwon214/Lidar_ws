@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing lidar_camera_calibration.egg-info/PKG-INFO
+writing dependency_links to lidar_camera_calibration.egg-info/dependency_links.txt
+writing entry points to lidar_camera_calibration.egg-info/entry_points.txt
+writing requirements to lidar_camera_calibration.egg-info/requires.txt
+writing top-level names to lidar_camera_calibration.egg-info/top_level.txt
+reading manifest file 'lidar_camera_calibration.egg-info/SOURCES.txt'
+writing manifest file 'lidar_camera_calibration.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar-camera-calibration.egg-link (link to .)
+Installing calibration_node script to /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/lidar_camera_calibration
+
+Installed /home/jae/Lidar_ws/build/lidar_camera_calibration
+running symlink_data
+symbolically linking /home/jae/Lidar_ws/build/lidar_camera_calibration/resource/lidar_camera_calibration -> /home/jae/Lidar_ws/install/lidar_camera_calibration/share/ament_index/resource_index/packages
+symbolically linking /home/jae/Lidar_ws/build/lidar_camera_calibration/package.xml -> /home/jae/Lidar_ws/install/lidar_camera_calibration/share/lidar_camera_calibration

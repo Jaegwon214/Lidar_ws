@@ -1,0 +1,32 @@
+running develop
+Removing /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar-camera-calibration.egg-link (link to .)
+running egg_info
+writing ../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/requires.txt
+writing top-level names to ../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/top_level.txt
+reading manifest file '../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_camera_calibration/__init__.py -> /home/jae/Lidar_ws/build/lidar_camera_calibration/build/lib/lidar_camera_calibration
+copying lidar_camera_calibration/calibration_node.py -> /home/jae/Lidar_ws/build/lidar_camera_calibration/build/lib/lidar_camera_calibration
+copying lidar_camera_calibration/calibration_algorithm.py -> /home/jae/Lidar_ws/build/lidar_camera_calibration/build/lib/lidar_camera_calibration
+running install
+running install_lib
+creating /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration
+copying /home/jae/Lidar_ws/build/lidar_camera_calibration/build/lib/lidar_camera_calibration/__init__.py -> /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration
+copying /home/jae/Lidar_ws/build/lidar_camera_calibration/build/lib/lidar_camera_calibration/calibration_node.py -> /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration
+copying /home/jae/Lidar_ws/build/lidar_camera_calibration/build/lib/lidar_camera_calibration/calibration_algorithm.py -> /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration
+byte-compiling /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration/calibration_node.py to calibration_node.cpython-310.pyc
+byte-compiling /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration/calibration_algorithm.py to calibration_algorithm.cpython-310.pyc
+running install_data
+copying resource/lidar_camera_calibration -> /home/jae/Lidar_ws/install/lidar_camera_calibration/share/ament_index/resource_index/packages
+copying package.xml -> /home/jae/Lidar_ws/install/lidar_camera_calibration/share/lidar_camera_calibration
+running install_egg_info
+Copying ../../build/lidar_camera_calibration/lidar_camera_calibration.egg-info to /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/python3.10/site-packages/lidar_camera_calibration-0.0.0-py3.10.egg-info
+running install_scripts
+Installing calibration_node script to /home/jae/Lidar_ws/install/lidar_camera_calibration/lib/lidar_camera_calibration
+writing list of installed files to '/home/jae/Lidar_ws/build/lidar_camera_calibration/install.log'

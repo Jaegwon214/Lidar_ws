@@ -1,0 +1,148 @@
+[0.009s] Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jae/Lidar_ws/src/velodyne/velodyne_pointcloud -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jae/Lidar_ws/src/install/velodyne_pointcloud
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.690s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.730s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.733s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.771s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.776s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.785s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.894s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.897s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.983s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.010s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.055s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.063s] -- Looking for pthread.h
+[1.137s] -- Looking for pthread.h - found
+[1.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.213s] -- Found Threads: TRUE  
+[1.260s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.272s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[1.307s] -- looking for PCL_COMMON
+[1.307s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[1.308s] -- Found PCL: pcl_common;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization  
+[1.310s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.335s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.351s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[1.355s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.413s] -- Found velodyne_msgs: 2.5.1 (/home/jae/Lidar_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[1.431s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.517s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.526s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.529s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.530s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jae/Lidar_ws/src/velodyne/velodyne_pointcloud/include>
+[1.530s] -- Configured cppcheck exclude dirs and/or files: 
+[1.533s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.534s] -- Configured cpplint exclude dirs and/or files: 
+[1.534s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.536s] -- Added test 'lint_cmake' to check CMake code style
+[1.536s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.539s] -- Added test 'uncrustify' to check C / C++ code style
+[1.540s] -- Configured uncrustify additional arguments: 
+[1.544s] -- Configuring done
+[1.587s] -- Generating done
+[1.604s] -- Build files have been written to: /home/jae/Lidar_ws/src/build/velodyne_pointcloud
+[1.622s] Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jae/Lidar_ws/src/velodyne/velodyne_pointcloud -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jae/Lidar_ws/src/install/velodyne_pointcloud
+[1.624s] Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_pointcloud -- -j12 -l12
+[1.693s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.693s] [ 16%] [32mBuilding CXX object CMakeFiles/velodyne_cloud_types.dir/src/lib/organized_cloudXYZIRT.cpp.o[0m
+[1.694s] [ 16%] [32mBuilding CXX object CMakeFiles/velodyne_cloud_types.dir/src/lib/pointcloudXYZIRT.cpp.o[0m
+[1.694s] [ 22%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/rawdata.cpp.o[0m
+[1.696s] [ 27%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/calibration.cpp.o[0m
+[1.697s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.607s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.672s] [ 38%] Built target gtest_main
+[5.245s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.354s] [ 44%] Built target gtest
+[5.391s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[8.937s] [ 55%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[9.129s] [ 61%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[9.139s] [ 61%] Built target velodyne_rawdata
+[9.168s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/test_calibration.dir/test_calibration.cpp.o[0m
+[9.293s] [ 66%] Built target velodyne_cloud_types
+[9.321s] [ 72%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[10.464s] [ 77%] [32m[1mLinking CXX executable test_calibration[0m
+[10.798s] [ 77%] Built target test_calibration
+[12.049s] [ 83%] [32m[1mLinking CXX executable test_row_step[0m
+[12.265s] [ 83%] Built target test_row_step
+[20.974s] [ 88%] [32m[1mLinking CXX shared library libtransform.so[0m
+[21.402s] [ 88%] Built target transform
+[21.422s] [ 94%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[26.314s] [100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[26.546s] [100%] Built target velodyne_transform_node
+[26.558s] Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jae/Lidar_ws/src/build/velodyne_pointcloud -- -j12 -l12
+[26.560s] Invoking command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_pointcloud
+[26.566s] -- Install configuration: ""
+[26.567s] -- Execute custom install script
+[26.567s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[26.575s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[26.584s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[26.592s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[26.601s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[26.609s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[26.620s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[26.629s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[26.638s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[26.645s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLS128-velodyne_transform_node-params.yaml
+[26.655s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[26.664s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[26.673s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[26.681s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[26.689s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-composed-launch.py
+[26.696s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-launch.py
+[26.705s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[26.715s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[26.723s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[26.732s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[26.740s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[26.748s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[26.756s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS128.yaml
+[26.764s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[26.772s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[26.780s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[26.789s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.sh
+[26.797s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.dsv
+[26.805s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[26.814s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[26.823s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[26.831s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[26.839s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[26.848s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[26.857s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[26.865s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[26.874s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[26.882s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[26.891s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[26.900s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[26.909s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[26.917s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.925s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.934s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_libraries-extras.cmake
+[26.943s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_targets-extras.cmake
+[26.951s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[26.960s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[26.967s] -- Symlinking: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[26.977s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[26.977s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+[26.977s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[26.978s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""
+[26.978s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/libtransform.so
+[26.986s] -- Set runtime path of "/home/jae/Lidar_ws/src/install/velodyne_pointcloud/lib/libtransform.so" to ""
+[26.986s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport.cmake
+[26.987s] -- Installing: /home/jae/Lidar_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport-noconfig.cmake
+[26.989s] Invoked command in '/home/jae/Lidar_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne:/home/jae/Lidar_ws/install/velodyne_pointcloud:/home/jae/Lidar_ws/install/velodyne_driver:/home/jae/Lidar_ws/install/velodyne_msgs:/home/jae/Lidar_ws/install/velodyne_laserscan:/home/jae/Lidar_ws/install/lidar_processing:/home/jae/ros2_ws/install/lidar_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jae/Lidar_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jae/Lidar_ws/src/build/velodyne_pointcloud
